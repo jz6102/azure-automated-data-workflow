@@ -8,7 +8,6 @@ This repository contains the SQL query and the Infrastructure as Code (IaC) temp
 
 The pipeline follows a simple yet powerful Extract, Transform, Load (ETL) process orchestrated by Azure Data Factory.
 
-![Architecture Diagram](https://i.imgur.com/gY5V8gH.png)
 
 1.  **Source (Extract):** An **Azure SQL Database** instance containing the `AdventureWorksLT` sample dataset serves as the source of our data.
 2.  **Orchestration & Transformation (Transform):** An **Azure Data Factory** pipeline connects to the source database. A "Copy data" activity executes a custom SQL query to select specific columns and filter out unnecessary rows, performing the transformation in-transit. Authentication between the services is handled securely using a **System-Assigned Managed Identity**.
