@@ -75,11 +75,11 @@ To replicate this project, you will need an active Azure subscription. Follow th
     -   Click **"Publish all"** to save your work.
 
 ## 📂 Repository Structure
-├── adf-arm-template/
-│   ├── arm_template.json           # ARM Template for the ADF structure
-│   └── arm_template_parameters.json # Parameters for the ARM Template
-├── source_query.sql                # The SQL transformation query
-└── README.md                       # This file
+##├── adf-arm-template/
+##│   ├── arm_template.json           # ARM Template for the ADF structure
+##│   └── arm_template_parameters.json # Parameters for the ARM Template
+##├── source_query.sql                # The SQL transformation query
+##└── README.md                       # This file
 
 ##  D-Contact
 
