@@ -73,6 +73,7 @@ To replicate this project, you will need an active Azure subscription. Follow th
     -   Click **"Debug"** to test the pipeline run.
     -   Verify the `products.csv` file is created in your storage container.
     -   Click **"Publish all"** to save your work.
+## 📂 Repository Structure
 ```text
 ## 📂 Repository Structure
 ├── adf-arm-template/
