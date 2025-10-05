@@ -73,14 +73,14 @@ To replicate this project, you will need an active Azure subscription. Follow th
     -   Click **"Debug"** to test the pipeline run.
     -   Verify the `products.csv` file is created in your storage container.
     -   Click **"Publish all"** to save your work.
-
+```text
 ## 📂 Repository Structure
-##├── adf-arm-template/
-##│   ├── arm_template.json           # ARM Template for the ADF structure
-##│   └── arm_template_parameters.json # Parameters for the ARM Template
-##├── source_query.sql                # The SQL transformation query
-##└── README.md                       # This file
-
+├── adf-arm-template/
+│   ├── arm_template.json           # ARM Template for the ADF structure
+│   └── arm_template_parameters.json # Parameters for the ARM Template
+├── source_query.sql                # The SQL transformation query
+└── README.md                       # This file
+```
 ##  D-Contact
 
 -   **Author:** Jaikanna B
